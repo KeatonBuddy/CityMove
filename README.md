@@ -1,0 +1,34 @@
+Info:
+- All files for this interactive demo/final version are found in the master branch of this repository (City-Move).
+---------------------------------
+- **To run the text-based version:**
+- All .java files need to be compiled, followed by running the Survey Class.
+- To do so: compile the code by typing in ---> javac \*.java account/\*.java logic/\*.java
+- To run the Survey class, type in ---> java Survey
+- When running the Survey class for the first time, enter a username and password you will use for each time you rerun the program.
+- In order to do this, type in 'S' (to sign-up). Then type in a username and push enter. Then type in a password and push enter.
+- If account creation is successful, you will be directed to the main menu.
+- If you have already ran the survey class once and have created a username and password, type in 'L' (to log-in).
+- To run the survey, type in 'S'.
+- To run the schedule, type in 'C'.
+---------------------------------
+- **To run the GUI based version:**
+- All .java files need to be compiled, followed by running the Gui Class.
+- To do so: change the directory of the command prompt to be in the same location as where all the files are located, followed by compiling the code by typing in ---> javac \*.java account/\*.java logic/\*.java (Compilation will be successful if no error messages pop up after compiling)
+- To run the Gui class, type in ---> java Gui
+- When running the Gui class for the first time, enter a username and password you will use for each time you rerun the program.
+- In order to do this, ---> Enter your username and password in the textfields, and click "Signup"
+- If account creation is successful, it will prompt you to click "Login" (or hit the enter key) and will direct you to the main menu.
+- If you have already ran the Gui class once and have created a username and password, enter your username and password and click "Login" (or hit the enter key), which will direct you to the main menu.
+- To run the survey in the Gui, click on "Do Survey" in the main menu.
+- To run the schedule in the Gui, click on "My Schedule" in the main menu.
+--------------------------------
+- **To run the JUNIT tests:**
+- The following files contain JUNIT test files: StudySpotTest.java, StudySpotListTest.java. and ScheduleTest.java . These are located in the folder called "unitTests"
+- First, move the test files to the main directory for the app, along with the junit-4.12.jar and hamcrest-core-1.3.jar files
+- To compile the files use the command: javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar \*.java logic/\*.java
+(Note use semicolons instead of colons if using windows machine) 
+- To run the appropriate test file use the command: java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore <test class> ex: StudySpotTest 
+--------------------------------
+- All map assets used in this demo is property of Google Maps.
+- The University of Calgary Logo is property of the University of Calgary.
