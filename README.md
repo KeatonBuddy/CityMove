@@ -72,19 +72,16 @@ CityMove/
 ### 1. Clone the repo
 
 ```
-bash
 git clone https://github.com/KeatonBuddy/CityMove.git
 cd CityMove
 ```
 ### 2. Compile all sources
 
 ```
-bash
 javac *.java account/*.java logic/*.java
 ```
 ### 3a. Run the console version
 ```
-bash
 java Survey
 ```
 - S → Sign up (first‐run only)
@@ -97,7 +94,6 @@ java Survey
   
 ### 3b. Run the GUI version
 ```
-bash
 java Gui
 ```
 - Enter credentials and click Signup / Login
@@ -112,7 +108,6 @@ java Gui
 
 3. Compile:
 ```
-bash
 # On macOS/Linux:
 javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar *.java logic/*.java
 
@@ -122,7 +117,6 @@ javac -cp .;junit-4.12.jar;hamcrest-core-1.3.jar *.java logic/*.java
 ```
 4. Execute a test suite:
 ```
-bash
 java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore StudySpotTest
 ```
 *(Replace : with ; on Windows.)*
